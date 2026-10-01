@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-exam="full">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark">
+  <title>BRCDC | Full-Length SHSAT Practice Exam</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="homework.css">
+  <script src="icons.js" defer></script><script src="diagrams.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js" defer></script><script src="homework-report.js" defer></script><script src="homework-app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#question-title">Skip to question</a>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">B</span><div><strong>BRCDC</strong><span>Full-Length SHSAT Practice Exam</span></div></div>
+    <div class="toolbar"><label class="size-label">Text size <select id="text-size"><option value="18">Standard</option><option value="21">Large</option><option value="24">Extra large</option></select></label>
+      <button id="theme-button" class="icon-button" title="Turn on dark mode" aria-label="Turn on dark mode"><i data-icon="Moon"></i></button>
+      <button id="fullscreen-button" class="icon-button" title="Toggle fullscreen" aria-label="Toggle fullscreen"><i data-icon="Contrast"></i></button>
+      <button id="instructions-button" class="icon-button" title="Exam instructions" aria-label="Exam instructions"><i data-icon="Info"></i></button>
+    </div>
+  </header>
+  <div id="connection" class="connection" role="status" hidden></div>
+  <noscript><p class="connection">Enable JavaScript to open the practice exam.</p></noscript>
+  <section id="start-screen" class="start-screen" aria-labelledby="start-title">
+    <span class="eyebrow">2017-2018 Form B skills</span><h1 id="start-title">Full-Length SHSAT Practice Exam</h1><p class="lead">114 questions: 57 English, then 57 Math.</p>
+    <dl class="exam-facts"><div><dt>English</dt><dd>57 questions</dd></div><div><dt>Math</dt><dd>57 questions</dd></div><div><dt>Time limit</dt><dd id="duration-label">Loading...</dd></div></dl>
+    <p>Work independently. Scratch paper and the built-in scratchpad are allowed; no calculator, reference materials, search, AI, or outside help.</p>
+    <p>Questions stay in order. Choose an answer and lock it to continue. You cannot go back after locking. The timer continues if you close the page; this full-length exam has no pause. At zero, it submits the answers already locked and stops the exam.</p>
+    <form id="start-form"><label for="student-name">Student name</label><input id="student-name" name="name" autocomplete="name" maxlength="100" required><button id="start-button" class="primary" disabled>Start exam <i data-icon="ArrowRight"></i></button></form>
+    <p class="muted">Complete this attempt in the same browser and device. Ask your teacher about timing accommodations before starting.</p>
+  </section>
+  <section id="exam-screen" hidden>
+    <div class="exam-status"><div><span id="answered"></span><span id="save-status" role="status"></span></div><div class="timer"><i data-icon="Clock3"></i><span id="time" role="timer" aria-label="Time remaining"></span><button id="pause-button" class="icon-button" title="Pause exam" aria-label="Pause exam" hidden><i data-icon="Pause"></i></button></div></div>
+    <progress id="progress" max="114" value="0" aria-label="Questions submitted"></progress>
+    <div id="time-warning" class="time-warning" role="alert" hidden></div>
+    <div class="exam-layout"><aside><details id="navigation" open><summary>Exam progress</summary><div class="progress-groups"><h2>English <span id="english-count"></span></h2><div id="english-grid" class="question-grid"></div><h2>Math <span id="math-count"></span></h2><div id="math-grid" class="question-grid"></div></div><p class="muted">Locked answers cannot be changed.</p><button id="scratchpad-toggle" class="secondary wide" type="button">Scratchpad</button><div id="scratchpad-panel" hidden><label for="scratchpad" class="muted">Private notes on this device</label><textarea id="scratchpad" rows="7" spellcheck="false"></textarea></div></details></aside>
+      <main id="workspace"><div class="section-bar"><span id="subject"></span><span id="question-number"></span></div><div id="question-layout">
+        <section id="passage-panel" aria-labelledby="passage-title" tabindex="0" hidden><div class="reading-tools"><span class="eyebrow">Reading passage</span><a href="#question-title">Go to question</a></div><h2 id="passage-title"></h2><div id="passage"></div><p id="passage-credit" class="muted"></p></section>
+        <section class="question-panel" aria-labelledby="question-title"><div class="question-tools"><span id="item-label"></span><button id="flag-button" class="icon-button" title="Mark for review after finishing" aria-label="Mark for review after finishing" aria-pressed="false"><i data-icon="Flag"></i></button></div><div id="stimulus" hidden></div><h1 id="question-title" tabindex="-1"></h1><a id="return-to-passage" href="#passage-panel" hidden>Read passage</a><div id="diagram"></div><fieldset id="choices"><legend class="sr-only">Choose one answer</legend></fieldset><div class="question-footer"><span class="muted">Your answer is final when submitted.</span><button id="next" class="primary" disabled>Lock answer &amp; continue <i data-icon="ArrowRight"></i></button></div></section>
+      </div></main>
+    </div>
+  </section>
+  <section id="paused-screen" class="start-screen" hidden aria-labelledby="paused-title"><h1 id="paused-title" tabindex="-1">Exam paused</h1><p id="pause-summary"></p><button id="resume-button">Resume</button></section>
+  <section id="results-screen" class="results-screen" hidden aria-labelledby="results-title">
+    <div class="result-heading"><div><span class="eyebrow">Finished work</span><h1 id="results-title" tabindex="-1">Full-Length Exam results</h1><p id="result-name"></p></div><div class="report-actions"><button id="download-button" class="primary"><i data-icon="Download"></i>Download results PDF</button><button id="print-button" class="secondary"><i data-icon="Printer"></i>Print</button></div></div>
+    <p id="completion-message" role="status"></p>
+    <div class="score-band"><div><span>English</span><strong id="english-score"></strong></div><div><span>Math</span><strong id="math-score"></strong></div><div><span>Total</span><strong id="total-score"></strong></div></div>
+    <dl id="metrics" class="metrics"></dl><p class="muted">Practice scores are raw correct counts, not official scaled SHSAT scores. Question variants and shuffled choices make this a practice exam, not an official administration.</p>
+    <p class="saved-result">Download the results PDF and attach it to your Google Classroom assignment. The exam does not submit to Classroom automatically.</p>
+    <h2>Skill breakdown</h2><div id="skill-summary"></div>
+    <div class="results-toolbar"><h2>All 114 questions</h2><label>Show <select id="result-filter"><option value="all">All questions</option><option value="incorrect">Incorrect / unanswered</option><option value="flagged">Marked for review</option></select></label></div>
+    <div id="report-list"></div>
+  </section>
+  <dialog id="instructions-dialog" aria-labelledby="instructions-title"><div class="dialog-top"><h2 id="instructions-title">Exam instructions</h2><button id="close-instructions" class="icon-button" title="Close instructions" aria-label="Close instructions"><i data-icon="X"></i></button></div><p>Answer 57 English questions followed by 57 Math questions. All 114 questions are multiple-choice, including variants of the source form's grid-ins. This practice exam follows a fixed order. It does not adapt difficulty from your answers.</p><p>Use scratch paper or the built-in scratchpad, but no calculator, reference materials, or outside help. Select an answer, then lock it. Locked answers cannot be revisited. A selection that has not been locked is not saved as an answer.</p><p>The timer does not pause. Warnings appear with 10, 5, and 1 minute remaining. At zero, the exam ends automatically. You can return in this same browser to view and download your results. The PDF includes all assigned questions, choices, answers, explanations, and English passages.</p><p>Use keys 1-4 to select a choice when the question has focus. Text size, dark mode, fullscreen, and a private device-only scratchpad are available.</p></dialog>
+</body></html>

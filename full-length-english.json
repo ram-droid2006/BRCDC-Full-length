@@ -1,0 +1,686 @@
+[
+  {
+    "source": 1,
+    "prompt": "Read this paragraph. (1) In September 2016, the National Museum of African American History and Culture opened, as part of the Smithsonian Institution, the museum is already the Smithsonian’s third most popular site. (2) Experts say that they expect this newest Smithsonian facility to welcome nearly 4 million visitors a year. (3) The museum features more than 30,000 objects, including Muhammad Ali’s boxing gloves and a dress sewn by Rosa Parks. (4) A commemorative copy of the Emancipation Proclamation, which was written in 1863 during the presidency of Abraham Lincoln, is also available for viewing at the museum. Which sentence should be revised to correct a run-on?",
+    "choices": [
+      "sentence 1",
+      "sentence 2",
+      "sentence 3",
+      "sentence 4"
+    ],
+    "answer": 0,
+    "group": "editing"
+  },
+  {
+    "source": 2,
+    "prompt": "Read this sentence. To promote their club, a bake sale will be sponsored by members of the debate team on Wednesday. How should this sentence be revised?",
+    "choices": [
+      "To promote their club, on Wednesday a bake sale will be sponsored by members of the debate team.",
+      "On Wednesday to promote their club, a bake sale will be sponsored by members of the debate team.",
+      "To promote their club, members of the debate team will sponsor a bake sale on Wednesday.",
+      "Members of the debate team, on Wednesday to promote their club, will sponsor a bake sale."
+    ],
+    "answer": 2,
+    "group": "editing"
+  },
+  {
+    "source": 3,
+    "prompt": "Read this paragraph. (1) Devon spent several hours preparing for an upcoming audition. (2) First, he did vocal exercises to practice his diction and projection. (3) Then, he studies the text of the monologue to better understand the emotions and motivations of the character he plans to portray. (4) Finally, he recited his monologue in front of a mirror many times, making slight adjustments and improvements to his performance each time. Which sentence should be revised to correct an inappropriate shift in verb tense?",
+    "choices": [
+      "sentence 1",
+      "sentence 2",
+      "sentence 3",
+      "sentence 4"
+    ],
+    "answer": 2,
+    "group": "editing"
+  },
+  {
+    "source": 4,
+    "prompt": "Read this sentence. The Colosseum in Rome, Italy which is considered one of the New Seven Wonders of the World, is the largest amphitheater ever built and could hold more than 50,000 spectators. Which edit should be made to correct this sentence?",
+    "choices": [
+      "delete the comma after Rome",
+      "insert a comma after Italy",
+      "delete the comma after World",
+      "insert a comma after built"
+    ],
+    "answer": 1,
+    "group": "editing"
+  },
+  {
+    "source": 5,
+    "prompt": "Read this sentence. The engineers tried some other things in the hope of finding a more effective insulation for the compartment. What is the most precise revision for the words The engineers tried some other things?",
+    "choices": [
+      "The engineers did experiments with several new materials",
+      "The engineers tested foam and fiberglass",
+      "The engineers did tests with two new materials",
+      "The engineers worked with foam and fiberglass"
+    ],
+    "answer": 1,
+    "group": "editing"
+  },
+  {
+    "source": 6,
+    "prompt": "Which sentence should replace sentence 4 to best introduce the main claim of the passage?",
+    "choices": [
+      "The public library is a valuable resource that all members of a community should use.",
+      "Going to the public library to gather information can be a valuable learning experience.",
+      "The resources available at a public library are most useful for students.",
+      "A public library offers many services to those who are interested in improving their communities."
+    ],
+    "answer": 0,
+    "group": "library"
+  },
+  {
+    "source": 7,
+    "prompt": "What is the best way to combine sentences 6 and 7 to clarify the relationship between ideas?",
+    "choices": [
+      "There has been an explosion of digital media in recent years, since people in different places can now communicate almost instantaneously.",
+      "There has been an explosion of digital media in recent years, although it now allows people in different places to communicate almost instantaneously.",
+      "In addition to the explosion of digital media in recent years, people in different places can communicate almost instantaneously.",
+      "With the explosion of digital media in recent years, people in different places can now communicate almost instantaneously."
+    ],
+    "answer": 3,
+    "group": "library"
+  },
+  {
+    "source": 8,
+    "prompt": "Which sentence can best follow and support sentence 9?",
+    "choices": [
+      "Libraries, which have been around for centuries and are found throughout the world today, help preserve the history of a community.",
+      "The public library is often used as a place for community leaders and organizers to host community events, such as hearings or town halls.",
+      "Libraries rely on a combination of local, state, and federal dollars to provide the kinds of services and programs that community members have come to expect.",
+      "At a public library, people can interact with others through a variety of programs, including teen book clubs, toddler story times, and senior-citizen exercise classes."
+    ],
+    "answer": 3,
+    "group": "library"
+  },
+  {
+    "source": 9,
+    "prompt": "Which transition word or phrase should be added to the beginning of sentence 12?",
+    "choices": [
+      "For example",
+      "Similarly",
+      "Indeed",
+      "As a result"
+    ],
+    "answer": 1,
+    "group": "library"
+  },
+  {
+    "source": 10,
+    "prompt": "Which revision of sentence 14 best maintains the formal style established in the passage?",
+    "choices": [
+      "The resources available at the library can help people accomplish many tasks.",
+      "All the materials you can get at the library can help you do many different tasks.",
+      "Everything in the library can help people work on a lot of different things.",
+      "The resources you can find at the library can help you do whatever you need to do."
+    ],
+    "answer": 0,
+    "group": "library"
+  },
+  {
+    "source": 11,
+    "prompt": "Where should sentence 19 be moved to improve the organization of the fourth paragraph (sentences 15–19)?",
+    "choices": [
+      "to the beginning of the paragraph (before sentence 15)",
+      "between sentences 15 and 16",
+      "between sentences 16 and 17",
+      "between sentences 17 and 18"
+    ],
+    "answer": 2,
+    "group": "library"
+  },
+  {
+    "source": 12,
+    "prompt": "Which sentence is irrelevant to the argument presented in the passage and should be deleted?",
+    "choices": [
+      "sentence 3",
+      "sentence 11",
+      "sentence 13",
+      "sentence 20"
+    ],
+    "answer": 2,
+    "group": "library"
+  },
+  {
+    "source": 13,
+    "prompt": "Which concluding sentence should be added after sentence 21 to support the argument presented in the passage?",
+    "choices": [
+      "Finally, patrons of the public library can grow in both their interpersonal life and their level of community engagement.",
+      "Clearly, it is in the best interest of community members to maintain, support, and use their public library.",
+      "After all, the public library has been a part of American communities since the first one was founded in 1833.",
+      "In the end, community leaders must work together to find ways to generate more involvement in public library events."
+    ],
+    "answer": 1,
+    "group": "library"
+  },
+  {
+    "source": 14,
+    "prompt": "What is the best way to combine sentences 4 and 5 to clarify the relationship between ideas?",
+    "choices": [
+      "Roads and railways had to navigate around the mountains or through winding tunnels inside the mountains, making the transportation of people and goods difficult and time consuming.",
+      "Even though roads and railways had to navigate around the mountains or through winding tunnels inside the mountains, the transportation of people and goods was difficult and time consuming.",
+      "Roads and railways had to navigate around the mountains or through winding tunnels inside the mountains, emphasizing that the transportation of people and goods was difficult and time consuming.",
+      "Roads and railways had to navigate around the mountains or through winding tunnels inside the mountains, since the transportation of people and goods was difficult and time consuming."
+    ],
+    "answer": 0,
+    "group": "mountains"
+  },
+  {
+    "source": 15,
+    "prompt": "Which sentence should follow sentence 6 to most clearly introduce the topic of the passage?",
+    "choices": [
+      "The Gotthard Base Tunnel was approved by Swiss voters in 1992 and was funded by tolls, fuel taxes, and government loans.",
+      "Leaders from several European countries attended the opening ceremonies for the Gotthard Base Tunnel.",
+      "The Gotthard Base Tunnel is the world’s longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
+      "The construction of the Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways."
+    ],
+    "answer": 2,
+    "group": "mountains"
+  },
+  {
+    "source": 16,
+    "prompt": "Which sentence could be added to follow and support sentence 8?",
+    "choices": [
+      "The tunnel-boring machine is helpful to tunnel builders in the modern era and has been an improvement over dynamite.",
+      "These enormous tunnel-boring machines function somewhat like a cheese grater, grinding slowly through rock and stone.",
+      "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel-boring machines.",
+      "Different types of tunnel-boring machines are used depending on the geology of the area where the tunnel is being created."
+    ],
+    "answer": 1,
+    "group": "mountains"
+  },
+  {
+    "source": 17,
+    "prompt": "Where should sentence 12 be moved to improve the organization of the second paragraph (sentences 7–12)?",
+    "choices": [
+      "to the beginning of the paragraph (before sentence 7)",
+      "between sentences 7 and 8",
+      "between sentences 9 and 10",
+      "between sentences 10 and 11"
+    ],
+    "answer": 3,
+    "group": "mountains"
+  },
+  {
+    "source": 18,
+    "prompt": "Which transition word or phrase should be added to the beginning of sentence 15?",
+    "choices": [
+      "Even so",
+      "Additionally",
+      "For example",
+      "Therefore"
+    ],
+    "answer": 2,
+    "group": "mountains"
+  },
+  {
+    "source": 19,
+    "prompt": "Which sentence is irrelevant to the topic presented in the passage and should be removed?",
+    "choices": [
+      "sentence 3",
+      "sentence 11",
+      "sentence 13",
+      "sentence 17"
+    ],
+    "answer": 3,
+    "group": "mountains"
+  },
+  {
+    "source": 20,
+    "prompt": "Which concluding sentence should be added after sentence 19 to support the topic presented in the passage?",
+    "choices": [
+      "There is proof that underground tunnels like the Gotthard Base Tunnel are beneficial to the economy of the surrounding areas.",
+      "The Gotthard Base Tunnel is an extraordinary example of how human ingenuity and persistence can overcome great obstacles.",
+      "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
+      "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+    ],
+    "answer": 1,
+    "group": "mountains"
+  },
+  {
+    "source": 21,
+    "prompt": "Which of the following best tells what this passage is about?",
+    "choices": [
+      "the reasons Nixon was expected to defeat Kennedy in the 1960 election",
+      "the discussion of domestic issues in the 1960 presidential debates",
+      "the events related to the first televised presidential debate",
+      "the qualifications of Nixon and Kennedy for the role of president"
+    ],
+    "answer": 2,
+    "group": "debate"
+  },
+  {
+    "source": 22,
+    "prompt": "Which of the following would have been the most likely result if the candidates had not debated on television in 1960?",
+    "choices": [
+      "Kennedy would have won the election anyway.",
+      "Nixon would have had a better chance of winning the election.",
+      "The election results would have been much closer.",
+      "The debates would not have become a tradition."
+    ],
+    "answer": 1,
+    "group": "debate"
+  },
+  {
+    "source": 23,
+    "prompt": "Which of the following did critics in 1960 think could be an undesirable consequence of televised presidential debates?",
+    "choices": [
+      "Candidates who are less well-known would have to debate experienced politicians.",
+      "Candidates might have difficulty overcoming the pressure of being on live television.",
+      "Candidates would be evaluated based on their performance rather than their positions.",
+      "Candidates would need to participate in multiple televised debates to fully cover important issues."
+    ],
+    "answer": 2,
+    "group": "debate"
+  },
+  {
+    "source": 24,
+    "prompt": "How did Kennedy benefit from the debates?",
+    "choices": [
+      "He was able to prove that he knew more about domestic issues than Nixon did.",
+      "He was able to display favorable personal characteristics despite his inexperience.",
+      "He was able to show that he had a more positive relationship with reporters than Nixon did.",
+      "He was able to persuade viewers to agree with his positions on domestic issues."
+    ],
+    "answer": 1,
+    "group": "debate"
+  },
+  {
+    "source": 25,
+    "prompt": "What evidence does the author provide to support the last sentence of the passage?",
+    "choices": [
+      "Kennedy and Nixon drew much smaller audiences for their later debates.",
+      "Kennedy and Nixon responded to questions calmly and carefully.",
+      "Nixon participated in the debate despite having been recently ill.",
+      "Nixon was more experienced and well- known than Kennedy."
+    ],
+    "answer": 3,
+    "group": "debate"
+  },
+  {
+    "source": 26,
+    "prompt": "Why did people who were not normally interested in politics tune in to the first of the Great Debates?",
+    "choices": [
+      "Vice President Nixon was a popular politician.",
+      "Television had never before been used in this way.",
+      "They had heard that Kennedy was young and charismatic.",
+      "They wanted to see whether the newspaper polls were correct."
+    ],
+    "answer": 1,
+    "group": "debate"
+  },
+  {
+    "source": 27,
+    "prompt": "Which of the following best tells what this passage is about?",
+    "choices": [
+      "the circumstances that allow ice to melt",
+      "the theories behind what makes ice slippery",
+      "the discoveries of Michael Faraday",
+      "the processes of freezing and melting"
+    ],
+    "answer": 1,
+    "group": "ice"
+  },
+  {
+    "source": 28,
+    "prompt": "What is the most likely reason that the author mentions lead and diamond crystals in the last paragraph?",
+    "choices": [
+      "to point out that solids other than ice have slippery surfaces",
+      "to suggest that ice, lead, and diamonds are composed of the same materials",
+      "to cast doubt on Faraday’s theory of slipperiness",
+      "to illustrate the effects of temperature and pressure on slipperiness"
+    ],
+    "answer": 0,
+    "group": "ice"
+  },
+  {
+    "source": 29,
+    "prompt": "According to Faraday, why do two ice cubes fuse when held together?",
+    "choices": [
+      "Friction causes the surfaces of the ice to melt and refreeze.",
+      "The applied pressure forces the surfaces of the cubes to stick to each other.",
+      "Liquid layers on the surfaces freeze together when the surfaces make contact.",
+      "The liquid layers on the surfaces of the ice are perfectly smooth."
+    ],
+    "answer": 2,
+    "group": "ice"
+  },
+  {
+    "source": 30,
+    "prompt": "What is the most likely reason that the author mentions the 1996 experiment at Lawrence Berkeley Laboratory?",
+    "choices": [
+      "to provide evidence about the surface of ice",
+      "to illustrate that studying ice molecules is difficult",
+      "to show how experiments on ice are inconclusive",
+      "to explain why ice cubes freeze together"
+    ],
+    "answer": 0,
+    "group": "ice"
+  },
+  {
+    "source": 31,
+    "prompt": "According to researchers at the Lawrence Berkeley Laboratory, why is the surface of ice liquid-like rather than a true liquid?",
+    "choices": [
+      "because electrons rebound from the ice surface",
+      "because the ice surface molecules vibrate only up and down",
+      "because the ice surface is a different temperature",
+      "because the ice surface is under pressure"
+    ],
+    "answer": 1,
+    "group": "ice"
+  },
+  {
+    "source": 32,
+    "prompt": "According to the passage, which of the following undermines the friction theory of slipperiness?",
+    "choices": [
+      "a person wearing flat-bottomed shoes gliding across an icy surface",
+      "two ice cubes fusing together",
+      "electrons bouncing off the surface of ice",
+      "a person sliding while standing immobile on an icy surface"
+    ],
+    "answer": 3,
+    "group": "ice"
+  },
+  {
+    "source": 33,
+    "prompt": "The author includes details about the pressure theory in the third paragraph in order to",
+    "choices": [
+      "highlight that there are different ideas regarding this theory about the slipperiness of ice.",
+      "describe the most recently accepted theory for the slipperiness of ice.",
+      "emphasize that this theory has been tested by scientists who study the slipperiness of ice.",
+      "show that there is scientific support for a plausible theory about the slipperiness of ice."
+    ],
+    "answer": 0,
+    "group": "ice"
+  },
+  {
+    "source": 34,
+    "prompt": "Which statement best describes the central idea of the passage?",
+    "choices": [
+      "Marsh’s experience growing up on a farm allowed him to witness firsthand how human demands on nature can lead to problems, and as an adult he wrote one of the first books about conservation.",
+      "Marsh challenged the notion that nature could repair the damage people cause to it, but he also supported human-made modifications to nature that improve transportation and commerce.",
+      "Marsh’s ideas about the environment were considered radical in his lifetime, but they later gained popularity during the environmental movement in the twentieth century.",
+      "Marsh was a radical thinker who believed that people’s actions could dramatically affect nature, and his writings are considered foundational to the conservation movement."
+    ],
+    "answer": 3,
+    "group": "marsh"
+  },
+  {
+    "source": 35,
+    "prompt": "Marsh believed that the people of his time caused harm to the environment mostly because",
+    "choices": [
+      "they assumed future generations would solve any environmental problems.",
+      "they thought industrial progress was more important than protecting nature.",
+      "they were unwilling to change farming and waste-disposal practices.",
+      "they lacked knowledge of nature and natural processes."
+    ],
+    "answer": 3,
+    "group": "marsh"
+  },
+  {
+    "source": 36,
+    "prompt": "What is the most likely reason the author uses the word “surprisingly” in line 11?",
+    "choices": [
+      "to argue that Marsh’s ideas are more applicable in the present than they were during his lifetime",
+      "to show that Marsh introduced ideas a century before they became widely accepted",
+      "to emphasize that Marsh was unaware that his ideas would help begin a conservation movement",
+      "to prove that there would be fewer issues with the environment today if people had accepted Marsh’s ideas earlier"
+    ],
+    "answer": 1,
+    "group": "marsh"
+  },
+  {
+    "source": 37,
+    "prompt": "Which evidence supports the idea that Marsh’s theories about nature were accurate?",
+    "choices": [
+      "the details about Marsh’s observations of environmental degradation",
+      "the details about how Marsh’s writing inspired a conservation movement",
+      "the details about how Marsh’s ideas are essential to modern environmental science",
+      "the details about Marsh’s opinion on human alterations to the environment"
+    ],
+    "answer": 2,
+    "group": "marsh"
+  },
+  {
+    "source": 38,
+    "prompt": "Which detail about Marsh provides support for the author’s statement in lines 55–58?",
+    "choices": [
+      "his reputation as a radical thinker",
+      "his contribution to the conservation movement",
+      "his experience working as an ambassador",
+      "his approval of beneficial human-made projects in nature"
+    ],
+    "answer": 3,
+    "group": "marsh"
+  },
+  {
+    "source": 39,
+    "prompt": "Which of Marsh’s ideas most influenced the environmental movement of the 1960s?",
+    "choices": [
+      "Some human alterations to the environment are necessary.",
+      "People lack an understanding of the environment.",
+      "Human activities could damage the environment.",
+      "Environmental degradation has been occurring for many years."
+    ],
+    "answer": 2,
+    "group": "marsh"
+  },
+  {
+    "source": 40,
+    "prompt": "Which of the following best tells what this passage is about?",
+    "choices": [
+      "the ways people have harnessed wind power throughout history",
+      "reasons for developing wind farms to generate electricity",
+      "how windmills are used in the United States",
+      "why windmills were modified to generate electricity"
+    ],
+    "answer": 0,
+    "group": "wind"
+  },
+  {
+    "source": 41,
+    "prompt": "What evidence best supports the idea that windmills were important resources in the western United States?",
+    "choices": [
+      "the details about the development and use of wind farms",
+      "the details about how windmills provided water for farms and livestock",
+      "the details about the role of wind energy during the energy crisis of the 1970s",
+      "the details about how steam engines influenced the use of windmills"
+    ],
+    "answer": 1,
+    "group": "wind"
+  },
+  {
+    "source": 42,
+    "prompt": "The author describes the tasks windmills were used for in lines 36–40 in order to",
+    "choices": [
+      "emphasize that windmills served a variety of purposes.",
+      "highlight that windmills are more efficient than water wheels.",
+      "emphasize that windmills were used for many years.",
+      "convey that some countries used windmills more than other countries."
+    ],
+    "answer": 0,
+    "group": "wind"
+  },
+  {
+    "source": 43,
+    "prompt": "Why were fewer American farms dependent on wind machines for electrical power after the 1950s?",
+    "choices": [
+      "The energy crisis had prompted interest in other fuel sources.",
+      "Coal and natural gas could generate more power than wind turbines.",
+      "Centralized power systems connected most places.",
+      "Wind farms had reduced the need for individual windmills."
+    ],
+    "answer": 2,
+    "group": "wind"
+  },
+  {
+    "source": 44,
+    "prompt": "Which of the following best expresses the author’s opinion regarding the future use of wind energy?",
+    "choices": [
+      "Wind farming methods are unlikely to increase electrical output.",
+      "Wind farms will most likely be used to provide energy in rural areas.",
+      "Wind farming output will likely supplement other sources of energy.",
+      "Wind farms may become an important source of electricity."
+    ],
+    "answer": 3,
+    "group": "wind"
+  },
+  {
+    "source": 45,
+    "prompt": "According to the passage, the people of Holland most notably used windmills to",
+    "choices": [
+      "pump water to remote locations.",
+      "turn bogs into usable land.",
+      "make the country famous.",
+      "process a variety of goods."
+    ],
+    "answer": 1,
+    "group": "wind"
+  },
+  {
+    "source": 46,
+    "prompt": "Which of the following best tells what this passage is about?",
+    "choices": [
+      "how variations in weather conditions affect tree growth",
+      "recent breakthroughs in understanding Native American cultures",
+      "why the Pueblo villages were abandoned",
+      "how tree-ring dating can establish the age of archaeological findings"
+    ],
+    "answer": 3,
+    "group": "trees"
+  },
+  {
+    "source": 47,
+    "prompt": "What was the importance of the key beam described in the fourth paragraph?",
+    "choices": [
+      "It proved that trees of the same age would have identical tree-ring patterns.",
+      "It helped archaeologists determine why the villages had been built at that time.",
+      "It revealed a new floating chronology for archaeologists to investigate.",
+      "It connected the floating chronology to the established chronology."
+    ],
+    "answer": 3,
+    "group": "trees"
+  },
+  {
+    "source": 48,
+    "prompt": "The author explains the causes of wide and narrow tree rings in lines 8–13 in order to",
+    "choices": [
+      "emphasize that tree-ring dating is highly accurate.",
+      "highlight how tree rings help determine past weather patterns.",
+      "emphasize that a tree’s ring patterns grow in a unique way.",
+      "highlight the importance of studying tree rings."
+    ],
+    "answer": 1,
+    "group": "trees"
+  },
+  {
+    "source": 49,
+    "prompt": "Which evidence best supports the idea that tree-ring dating helped archaeologists understand why the Pueblo villages were abandoned?",
+    "choices": [
+      "the details about the Hopi village Oraibi",
+      "the details about the twenty-three-year drought",
+      "the details about the discovery of the Pueblo villages",
+      "the details about the floating chronology"
+    ],
+    "answer": 1,
+    "group": "trees"
+  },
+  {
+    "source": 50,
+    "prompt": "Why did the archaeologists conclude that the buildings in the abandoned Pueblo villages were constructed before A.D. 1260?",
+    "choices": [
+      "The logs in the Pueblo buildings did not share any ring patterns with the established chronology from the Hopi village.",
+      "The logs in the Pueblo buildings had fewer rings than the logs from the buildings in the Hopi village.",
+      "The Pueblo villages were abandoned before the Hopi village was established.",
+      "The Pueblo villages and the Hopi village were constructed from logs of similar size."
+    ],
+    "answer": 0,
+    "group": "trees"
+  },
+  {
+    "source": 51,
+    "prompt": "Why did archaeologists compare the logs from buildings in the abandoned Pueblo villages with logs from the Hopi village?",
+    "choices": [
+      "to find the oldest and most recent logs used in the Pueblo villages",
+      "to find evidence that would help explain what caused people to leave the Pueblo villages",
+      "to find a log from the Pueblo villages that had tree rings that matched logs from the Hopi village",
+      "to find evidence that the Pueblo villages were constructed before the Hopi village"
+    ],
+    "answer": 2,
+    "group": "trees"
+  },
+  {
+    "source": 52,
+    "prompt": "Why did ordinary people in the 1930s identify with the art of the American Scene painters?",
+    "choices": [
+      "The artists were primarily concerned with painting farm life.",
+      "People appreciated the beauty reflected in the paintings.",
+      "People wanted paintings to show social and cultural change.",
+      "The paintings reflected the times in ways that were familiar to most viewers."
+    ],
+    "answer": 3,
+    "group": "art"
+  },
+  {
+    "source": 53,
+    "prompt": "Which of the following subjects would an Urban Realist painter be most likely to represent?",
+    "choices": [
+      "a scene with factory workers going home from work",
+      "a scene with children playing games in a street",
+      "a scene of a bustling European city",
+      "a scene showing the stores along the main street in a city"
+    ],
+    "answer": 0,
+    "group": "art"
+  },
+  {
+    "source": 54,
+    "prompt": "Hopper’s paintings contrast with the work of the Urban Realist painters by",
+    "choices": [
+      "showing the ugliness of a city environment.",
+      "illustrating the move toward an international style.",
+      "revealing the ways that dull urban life can include beauty.",
+      "focusing on the portrayal of people rather than on the setting."
+    ],
+    "answer": 2,
+    "group": "art"
+  },
+  {
+    "source": 55,
+    "prompt": "How does the fourth paragraph contribute to the passage?",
+    "choices": [
+      "It describes the end of the American Scene movement.",
+      "It highlights Edward Hopper as a unique American Scene painter.",
+      "It explains why Edward Hopper’s work has been forgotten.",
+      "It contrasts the American Scene and Urban Realist styles."
+    ],
+    "answer": 1,
+    "group": "art"
+  },
+  {
+    "source": 56,
+    "prompt": "The author uses the phrase “without apology” (lines 59–60) to explain that Hopper did not think he needed to justify",
+    "choices": [
+      "how he portrayed his subjects.",
+      "painting scenes of real places.",
+      "why his paintings became popular.",
+      "the classification of his art style."
+    ],
+    "answer": 0,
+    "group": "art"
+  },
+  {
+    "source": 57,
+    "prompt": "What is the most likely reason that Regionalist art has retained some of its popularity while Urban Realist art has not?",
+    "choices": [
+      "Regionalist art depicts modern life as well as life in the past, while Urban Realist art depicts only the past.",
+      "Regionalist art more accurately portrays the time in which it was painted than Urban Realist art does.",
+      "Regionalist art shows American life as people wish to remember it, while Urban Realist art does not.",
+      "Regionalist art depicts Americans overcoming the Depression, while Urban Realist art depicts life during World War II."
+    ],
+    "answer": 2,
+    "group": "art"
+  }
+]
